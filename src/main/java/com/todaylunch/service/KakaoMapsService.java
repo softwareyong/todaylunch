@@ -23,7 +23,7 @@ public class KakaoMapsService {
     private final String xAddress;
     private final String yAddress;
 
-    public KakaoMapsService(@Value("${kakao.api.key}") String apiKey, @Value("${kakao.api.url}") String apiUrl) {
+    public KakaoMapsService(@Value("${kakao.key}") String apiKey, @Value("${kakao.maps.url}") String apiUrl) {
         this.apiKey = apiKey;
         this.apiUrl = apiUrl;
         this.xAddress = "127.1066904"; // 교육장 주소?

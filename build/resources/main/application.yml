@@ -5,8 +5,9 @@ spring:
     mapper:
       accept-case-insensitive-enums: true
 kakao:
-  api:
-    key: "13eebedc8dc823df7a6c15cd5ebacb04"
-#    url: "https://dapi.kakao.com/v2/local/search/address.json"
+  key: d9350ed0e7f98301b5251344702dd81a
+  maps:
     url: https://dapi.kakao.com/v2/local/search/keyword
+  login:
+    redirect_uri: http://localhost:8080/callback
 
